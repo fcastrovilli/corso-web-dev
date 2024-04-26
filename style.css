@@ -1,0 +1,85 @@
+body,
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2a114d;
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: inherit;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  background-color: #827199;
+  color: black;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+}
+
+.hero-text {
+  text-align: left;
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 20px;
+}
+
+.skills button {
+  background-color: #827199;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.skills button:hover {
+  background-color: #4e3d5c;
+}
+
+#about p {
+  max-width: 50%;
+  margin: auto;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.5;
+}
