@@ -1,19 +1,88 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Il mio sito</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Il mio portfolio</title>
   </head>
-  <body style="background-color: rgb(145, 255, 0);">
-    <h1 style="color: red; font-size: 100px">Il mio sito</h1>
-    <h2>Benvenut* sul mio nuovo bellissimo sito!</h2>
-    <br>
-    <h3 style="color: fuchsia; background-color: lightblue; padding: 2px;">Breve descrizione</h3>
-    <p style="background-color: darkblue; color:white; padding: 10px;">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem omnis
-      at ut? Recusandae voluptates porro voluptatum earum fugiat corporis facere
-      vero quod, voluptatibus ipsam, atque consectetur cupiditate. Id, vitae!
-    </p>
+  <body>
+    <!-- Navigation -->
+    <nav class="menu">
+      <a href="#">Home</a>
+      <div>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- Hero -->
+      <section id="#">
+        <div class="hero">
+          <img src="https://picsum.photos/id/10/800/600" alt="Portfolio" />
+          <div class="hero-text">
+            <h1>Il mio portfolio</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              nihil accusantium praesentium, fugiat optio ea consequatur nobis
+              id cupiditate sequi quia repellat animi quibusdam reiciendis
+              suscipit architecto vel. Assumenda, eos.
+            </p>
+            <div class="skills">
+              <h2>Skills</h2>
+              <button>HTML</button>
+              <button>CSS</button>
+              <button>JavaScript</button>
+              <button>PHP</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+          quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Eveniet culpa quod laboriosam dolorum, temporibus, qui et animi fuga
+          odit porro veniam sapiente laborum in architecto. Numquam fugiat
+          nostrum quibusdam perspiciatis! Lorem ipsum, dolor sit amet
+          consectetur adipisicing elit. Nisi, nostrum quos eligendi quod natus
+          tenetur. Recusandae natus magni nemo sapiente dolor, provident fuga
+          tempore itaque? Distinctio voluptatum ab laboriosam accusantium? Lorem
+          ipsum dolor sit amet consectetur, adipisicing elit. Officia vitae sunt
+          ex recusandae accusantium veritatis. Quam asperiores, facere vitae
+          praesentium aliquid architecto aliquam voluptates nulla doloremque non
+          voluptatibus similique? Quasi! Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Odit, eum praesentium cumque veniam exercitationem
+          ex dolor repellat, quasi, ea placeat aliquid iusto temporibus fugiat
+          voluptates? Doloribus dignissimos sint amet aliquam! Lorem ipsum dolor
+          sit amet consectetur, adipisicing elit. Est repellendus iure qui quo
+          odio nam deleniti fugiat pariatur. Rem voluptatibus laborum iste
+          voluptatum aliquid laboriosam ratione architecto aut numquam dolorem?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          laboriosam sint natus iure distinctio eos ex ab, aut adipisci culpa
+          deserunt vero tempore architecto odio est! Nesciunt, id deleniti.
+          Officia! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Possimus nulla in adipisci amet odit illum ipsa quaerat ea doloremque
+          sequi distinctio aut optio consequatur illo, nobis animi veritatis vel
+          labore? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Architecto dolorum aliquam provident optio in, voluptatum nihil
+          similique fugiat dolor ducimus nisi, consequuntur iste ad aspernatur
+          explicabo dicta soluta temporibus laudantium!
+        </p>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          You can contact me at
+          <a href="mailto:lamiaemail@test.com">lamiaemail@test.com</a>.
+        </p>
+      </section>
+    </div>
   </body>
 </html>
